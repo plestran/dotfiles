@@ -4,7 +4,7 @@ PS1="[\u@\h \W]\$ "
 ## Aliases
 alias du='du -sh .[!.]* *| sort -n'
 alias chde="sed 's/D+/E+/g;s/D-/E-/g;s/D 0/E00/'"
-alias ls='ls -B --color'
+alias ls='ls -BG'
 alias ex='exit'
 alias cl='clear'
 alias cls='clear;ls'
