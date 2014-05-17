@@ -1,0 +1,72 @@
+#Port numbers = http://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xml
+
+## UW Servers
+Host artemis
+	Hostname artemis.chem.washington.edu
+	User plestran
+
+Host bonanza
+	Hostname bonanza.chem.washington.edu
+	User plestran
+
+Host gtk
+	Hostname gaussiantoolkit.chem.washington.edu
+	User plestran
+
+Host medusa
+	Hostname medusa.chem.washington.edu
+	User plestran
+
+Host rhea
+	Hostname rhea.chem.washington.edu
+	User plestran
+
+Host stuart
+	Hostname stuart.chem.washington.edu
+	User plestran
+
+Host urania
+	Hostname urania.chem.washington.edu
+	User plestran
+
+## UW Tunnels
+Host gtkT
+	Hostname gaussiantoolkit.chem.washington.edu
+	User plestran
+	LocalForward 2300 artemis.chem.washington.edu:22
+	LocalForward 2301 bonanza.chem.washington.edu:22
+	LocalForward 2302 medusa.chem.washington.edu:22
+	LocalForward 2303 rhea.chem.washington.edu:22
+	LocalForward 2304 stuart.chem.washington.edu:22
+	LocalForward 2305 urania.chem.washington.edu:22
+
+Host artemisT
+	Hostname localhost
+	User plestran
+	Port 2300	
+
+Host bonanzaT
+	Hostname localhost
+	User plestran
+	Port 2301
+
+Host medusaT
+	Hostname localhost
+	User plestran
+	Port 2302
+
+Host rheaT
+	Hostname localhost
+	User plestran
+	Port 2303
+
+Host stuartT
+	Hostname localhost
+	User plestran
+	Port 2304
+
+Host uraniaT
+	Hostname localhost
+	User plestran
+	Port 2305
+
