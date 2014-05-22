@@ -18,6 +18,7 @@ alias gitv='git log --graph --full-history --all --color --pretty=format:"%x1b[3
 alias ssh='ssh -Y'
 alias qs='qstat'
 alias qsu='qstat -u'
+alias gnuplot='gnuplot -persist'
 
 ## UW Server aliases
 alias artemis='ssh artemis'
