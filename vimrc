@@ -9,5 +9,6 @@ set mouse=a			" identify mouse
 set hlsearch		" highlight when searching
 set number			" display line numbers
 let perl_fold=1	" authomatically fold perl subroutines
-set ts=2				" changes tab size to 3 spaces
 set showmatch		" matches parentheses and brackets
+set ts=2				" changes tab size to 3 spaces
+set expandtab   " sets tab to fill with whitespace
