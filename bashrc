@@ -28,6 +28,7 @@ alias medusa='ssh medusa'
 alias rhea='ssh rhea'
 alias stuart='ssh stuart'
 alias urania='ssh urania'
+alias gpu='ssh gpu-compute-1-33'
 
 ## UW Tunnel aliases
 alias artemisT='ssh -N -f -q gtkT;ssh artemisT'
@@ -36,4 +37,5 @@ alias medusaT='ssh -N -f -q gtkT;ssh medusaT'
 alias rheaT='ssh -N -f -q gtkT;ssh rheaT'
 alias stuartT='ssh -N -f -q gtkT;ssh stuartT'
 alias uraniaT='ssh -N -f -q gtkT;ssh uraniaT'
+alias gpuT='ssh -N -f -q gtkT;ssh stuartT;ssh gpu'
 
