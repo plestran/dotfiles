@@ -9,6 +9,10 @@ Host bonanza
 	Hostname bonanza.chem.washington.edu
 	User plestran
 
+Host dante
+  Hostname dante.u.washington.edu
+  User plestran
+
 Host gtk
 	Hostname gaussiantoolkit.chem.washington.edu
 	User plestran
@@ -29,7 +33,7 @@ Host urania
 	Hostname urania.chem.washington.edu
 	User plestran
 
-## UW Tunnels
+## UW Tunnels through gtk
 Host gtkT
 	Hostname gaussiantoolkit.chem.washington.edu
 	User plestran
@@ -69,4 +73,19 @@ Host uraniaT
 	Hostname localhost
 	User plestran
 	Port 2305
+
+## UW Tunnels through dante
+
+Host danteT
+	Hostname dante.u.washington.edu
+	User plestran
+	LocalForward 2300 artemis.chem.washington.edu:22
+	LocalForward 2301 bonanza.chem.washington.edu:22
+	LocalForward 2302 medusa.chem.washington.edu:22
+	LocalForward 2303 rhea.chem.washington.edu:22
+	LocalForward 2304 stuart.chem.washington.edu:22
+	LocalForward 2305 urania.chem.washington.edu:22
+
+
+
 
