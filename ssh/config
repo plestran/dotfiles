@@ -70,3 +70,8 @@ Host uraniaT
 	User plestran
 	Port 2305
 
+#ost stuartG
+# Hostname stuart.chem.washington.edu
+# User plestran
+# ProxyCommand ssh gpu-compute-1-33
+
