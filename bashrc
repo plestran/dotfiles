@@ -37,5 +37,5 @@ alias medusaT='ssh -N -f -q gtkT;ssh medusaT'
 alias rheaT='ssh -N -f -q gtkT;ssh rheaT'
 alias stuartT='ssh -N -f -q gtkT;ssh stuartT'
 alias uraniaT='ssh -N -f -q gtkT;ssh uraniaT'
-alias gpuT='ssh -N -f -q gtkT;ssh stuartT|ssh gpu-compute-1-33'
+alias gpuT='ssh -N -f -q gtkT;ssh stuartT|gpu'
 

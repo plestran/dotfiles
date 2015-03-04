@@ -20,6 +20,8 @@ alias ssh 'ssh -Y'
 alias qs 'qstat'
 alias qsu 'qstat -u plestran'
 alias gnuplot 'gnuplot -persist'
+alias vi '~/bin/vim7.4/bin/vim'
+alias vim '~/bin/vim7.4/bin/vim'
 
 ## UW Server aliases
 alias artemis 'ssh artemis'
