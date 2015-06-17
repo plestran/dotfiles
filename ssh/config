@@ -36,6 +36,9 @@ Host urania
 Host hyak
 	Hostname hyak.washington.edu
 	User plestran
+	ControlPath ~/.ssh/cm_socket/%r@%h:%p
+	ControlMaster auto
+	ControlPersist yes
 
 ## UW Tunnels through gtk
 Host gtkT

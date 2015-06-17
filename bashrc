@@ -30,6 +30,7 @@ alias rhea='ssh rhea'
 alias stuart='ssh stuart'
 alias urania='ssh urania'
 alias gpu='ssh gpu-compute-1-33'
+alias hyak='ssh hyak'
 
 alias artemisT='ssh -N -f -q danteT;ssh artemisT'
 alias bonanzaT='ssh -N -f -q danteT;ssh bonanzaT'
