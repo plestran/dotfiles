@@ -1,0 +1,16 @@
+menu main on
+axes location off
+color Display Background white
+display projection Orthographic
+
+mol modcolor 0 0 "Element"
+#Sphere Scale, Bond Radius, Sphere Resolution, Bond Resolution
+mol modstyle 0 0 CPK 1.0 0.4 100.0 100.0 
+
+# change some element colors
+color change rgb  2 0.5 0.5 0.5 ;# gray
+color Element C gray
+color Element Pt orange2
+color change rgb  19 0.16 0.79 0.16 ;# green2
+color change rgb  24 0.14 0.46 0.9 ;# blue2
+
