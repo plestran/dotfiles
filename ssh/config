@@ -13,9 +13,9 @@ Host dante
   Hostname dante.u.washington.edu
   User plestran
 
-Host gtk
-	Hostname gaussiantoolkit.chem.washington.edu
-	User plestran
+Host grendel
+	Hostname grendel.cscaa.dk
+	User patrick
 
 Host hestia
 	Hostname hestia.chem.washington.edu
@@ -29,6 +29,7 @@ Host medusa
 Host rhea
 	Hostname rhea.chem.washington.edu
 	User plestran
+  ForwardX11Trusted yes
 
 Host stuart
 	Hostname stuart.chem.washington.edu
@@ -44,20 +45,14 @@ Host hyak
 	User plestran
 
 ## UW Tunnels through dante
-Host danteT
+Host artemisT
 	Hostname dante.u.washington.edu
 	User plestran
-	LocalForward 2300 artemis.chem.washington.edu:22
 	LocalForward 2301 bonanza.chem.washington.edu:22
 	LocalForward 2302 medusa.chem.washington.edu:22
 	LocalForward 2303 rhea.chem.washington.edu:22
 	LocalForward 2304 stuart.chem.washington.edu:22
 	LocalForward 2305 urania.chem.washington.edu:22
-
-Host artemisT
-	Hostname localhost
-	User plestran
-	Port 2300	
 
 Host bonanzaT
 	Hostname localhost
