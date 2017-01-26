@@ -48,34 +48,34 @@ Host hyak
 Host artemisT
 	Hostname dante.u.washington.edu
 	User plestran
-	LocalForward 2301 bonanza.chem.washington.edu:22
-	LocalForward 2302 medusa.chem.washington.edu:22
-	LocalForward 2303 rhea.chem.washington.edu:22
-	LocalForward 2304 stuart.chem.washington.edu:22
-	LocalForward 2305 urania.chem.washington.edu:22
+	LocalForward 2300 bonanza.chem.washington.edu:22
+	LocalForward 2301 medusa.chem.washington.edu:22
+	LocalForward 2302 rhea.chem.washington.edu:22
+	LocalForward 2303 stuart.chem.washington.edu:22
+	LocalForward 2304 urania.chem.washington.edu:22
 
 Host bonanzaT
 	Hostname localhost
 	User plestran
-	Port 2301
+	Port 2300
 
 Host medusaT
 	Hostname localhost
 	User plestran
-	Port 2302
+	Port 2301
 
 Host rheaT
 	Hostname localhost
 	User plestran
-	Port 2303
+	Port 2302
 
 Host stuartT
 	Hostname localhost
 	User plestran
-	Port 2304
+	Port 2303
 
 Host uraniaT
 	Hostname localhost
 	User plestran
-	Port 2305
+	Port 2304
 

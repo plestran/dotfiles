@@ -24,7 +24,7 @@ alias bonanza='ssh bonanza'
 alias dante='ssh dante'
 alias hestia='ssh hestia'
 alias medusa='ssh -X medusa'
-alias rhea='ssh rhea'
+alias rhea='ssh -X rhea'
 alias stuart='ssh -X stuart'
 alias urania='ssh urania'
 
