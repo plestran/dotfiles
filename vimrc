@@ -1,4 +1,5 @@
 syntax on				" identify file type and set syntax
+colorscheme desert
 set backspace=indent,eol,start
 set backup			" keep a backup file
 set history=50	" keep 50 lines of command line history
@@ -12,3 +13,4 @@ let perl_fold=1	" authomatically fold perl subroutines
 set ts=2				" changes tab size to 2 spaces
 set showmatch		" matches parentheses and brackets
 "set expandtab   " sets tab to fill with whitespace
+
