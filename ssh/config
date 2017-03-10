@@ -2,80 +2,80 @@
 
 ## UW Servers
 Host artemis
-	Hostname artemis.chem.washington.edu
-	User plestran
+    Hostname artemis.chem.washington.edu
+    User plestran
 
 Host bonanza
-	Hostname bonanza.chem.washington.edu
-	User plestran
+    Hostname bonanza.chem.washington.edu
+    User plestran
 
 Host dante
-  Hostname dante.u.washington.edu
-  User plestran
+    Hostname dante.u.washington.edu
+    User plestran
 
 Host grendel
-	Hostname grendel.cscaa.dk
-	User patrick
+    Hostname grendel.cscaa.dk
+    User patrick
 
 Host hestia
-	Hostname hestia.chem.washington.edu
-	User plestran
+    Hostname hestia.chem.washington.edu
+    User plestran
 
 Host medusa
-	Hostname medusa.chem.washington.edu
-	User plestran
-  ForwardX11Trusted yes
+    Hostname medusa.chem.washington.edu
+    User plestran
+    ForwardX11Trusted yes
 
 Host rhea
-	Hostname rhea.chem.washington.edu
-	User plestran
-  ForwardX11Trusted yes
+    Hostname rhea.chem.washington.edu
+    User plestran
+    ForwardX11Trusted yes
 
 Host stuart
-	Hostname stuart.chem.washington.edu
-	User plestran
-  ForwardX11Trusted yes
+    Hostname stuart.chem.washington.edu
+    User plestran
+    ForwardX11Trusted yes
 
 Host urania
-	Hostname urania.chem.washington.edu
-	User plestran
+    Hostname urania.chem.washington.edu
+    User plestran
 
 Host hyak
-	Hostname hyak.washington.edu
-	User plestran
+    Hostname hyak.washington.edu
+    User plestran
 
-## UW Tunnels through dante
+## Tunnels through artemis
 Host artemisT
-	Hostname dante.u.washington.edu
-	User plestran
-	LocalForward 2300 bonanza.chem.washington.edu:22
-	LocalForward 2301 medusa.chem.washington.edu:22
-	LocalForward 2302 rhea.chem.washington.edu:22
-	LocalForward 2303 stuart.chem.washington.edu:22
-	LocalForward 2304 urania.chem.washington.edu:22
+    Hostname dante.u.washington.edu
+    User plestran
+    LocalForward 2300 bonanza.chem.washington.edu:22
+    LocalForward 2301 medusa.chem.washington.edu:22
+    LocalForward 2302 rhea.chem.washington.edu:22
+    LocalForward 2303 stuart.chem.washington.edu:22
+    LocalForward 2304 urania.chem.washington.edu:22
 
 Host bonanzaT
-	Hostname localhost
-	User plestran
-	Port 2300
+    Hostname localhost
+    User plestran
+    Port 2300
 
 Host medusaT
-	Hostname localhost
-	User plestran
-	Port 2301
+    Hostname localhost
+    User plestran
+    Port 2301
 
 Host rheaT
-	Hostname localhost
-	User plestran
-	Port 2302
+    Hostname localhost
+    User plestran
+    Port 2302
 
 Host stuartT
-	Hostname localhost
-	User plestran
-	Port 2303
+    Hostname localhost
+    User plestran
+    Port 2303
 
 Host uraniaT
-	Hostname localhost
-	User plestran
-	Port 2304
+    Hostname localhost
+    User plestran
+    Port 2304
 

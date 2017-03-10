@@ -2,8 +2,6 @@
 PS1="[\u@\h \W]\$ "
 
 ## Common Aliases
-#alias du='du -sh .[!.]* *| sort -n'
-alias chde="sed 's/D+/E+/g;s/D-/E-/g;s/D 0/E00/'"
 alias ls='ls -BG'
 alias ex='exit'
 alias cl='clear'
@@ -18,7 +16,7 @@ alias qs='qstat'
 alias qsu='qstat -u plestran'
 alias gnuplot='gnuplot -persist'
 
-## UW Server aliases
+## Server aliases
 alias artemis='ssh artemis'
 alias bonanza='ssh bonanza'
 alias dante='ssh dante'
@@ -28,7 +26,7 @@ alias rhea='ssh -X rhea'
 alias stuart='ssh -X stuart'
 alias urania='ssh urania'
 
-## UW tunnels through artemis
+## Tunnels through artemis
 alias bonanzaT='ssh -N -f -q artemisT;ssh bonanzaT'
 alias medusaT='ssh -N -f -q artemisT;ssh medusaT'
 alias rheaT='ssh -N -f -q artemisT;ssh rheaT'
