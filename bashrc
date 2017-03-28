@@ -27,9 +27,9 @@ alias stuart='ssh -X stuart'
 alias urania='ssh urania'
 
 ## Tunnels through artemis
-alias bonanzaT='ssh -N -f -q artemisT;ssh bonanzaT'
-alias medusaT='ssh -N -f -q artemisT;ssh medusaT'
-alias rheaT='ssh -N -f -q artemisT;ssh rheaT'
-alias stuartT='ssh -N -f -q artemisT;ssh stuartT'
-alias uraniaT='ssh -N -f -q artemisT;ssh uraniaT'
+alias bonanzaT='ssh -N -f -q danteT;ssh bonanzaT'
+alias medusaT='ssh -N -f -q danteT;ssh medusaT'
+alias rheaT='ssh -N -f -q danteT;ssh rheaT'
+alias stuartT='ssh -N -f -q danteT;ssh stuartT'
+alias uraniaT='ssh -N -f -q danteT;ssh uraniaT'
 

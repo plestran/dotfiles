@@ -45,7 +45,7 @@ Host hyak
     User plestran
 
 ## Tunnels through artemis
-Host artemisT
+Host danteT
     Hostname dante.u.washington.edu
     User plestran
     LocalForward 2300 bonanza.chem.washington.edu:22
