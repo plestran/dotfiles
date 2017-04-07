@@ -21,10 +21,18 @@ Host hestia
     Hostname hestia.chem.washington.edu
     User plestran
 
+Host ikt
+    Hostname ikt.hyak.uw.edu
+    User plestran
+
 Host medusa
     Hostname medusa.chem.washington.edu
     User plestran
     ForwardX11Trusted yes
+
+Host mox
+    Hostname mox.hyak.uw.edu
+    User plestran
 
 Host rhea
     Hostname rhea.chem.washington.edu
@@ -38,10 +46,6 @@ Host stuart
 
 Host urania
     Hostname urania.chem.washington.edu
-    User plestran
-
-Host hyak
-    Hostname hyak.washington.edu
     User plestran
 
 ## Tunnels through artemis
